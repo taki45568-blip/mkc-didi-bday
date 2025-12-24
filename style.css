@@ -1,0 +1,36 @@
+body {
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  padding: 10px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.para {
+  max-width: 600px;
+  margin: auto;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin: 15px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+}
